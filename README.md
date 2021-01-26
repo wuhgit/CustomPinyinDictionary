@@ -1,36 +1,10 @@
 # 自建拼音输入法词库
 
-
 ---
 
-鉴于 [Gboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin) 孱弱的中文词库，在结合网上各方面的资源后，对其进行补充增强。
+目前提供 `Fcitx5 (Linux)` 以及 `Gboard (Android)` 两种词库数据格式。
 
-整个过程受到 [此处](https://github.com/studyzy/imewlconverter/issues/111) 的启发，深表感谢！
-
----
-
-# ⚠️警告！
-
-**导入此词库将会覆盖您输入法中已有的所有个人词库数据，请在操作前做好相关备份！**
-
-
----
-
-## Q&A
-
-### 既然 Gboard 这么弱，为什么不用XX输入法？
-
-纯属个人喜好，我并不喜欢那些打着输入法的名义却塞进了太多乱七八糟功能的应用，如果您有合适的输入法，欢迎推荐。
-
-
-### 为什么采用覆盖数据库的方式进行？
-
-我曾经尝试过直接导入，由于数据量庞大，耗时很久且失败率相当之高，如果采用数据库替换的方式进行，基本上可以很快速的一次成功。
-
-
-### 数据量为什么这么大？
-
-当前数据库，包含了以下内容：
+当前词库，包含了以下内容：
 
 * 常见的成语、俗语、诗歌等
 * 中华人民共和国四级行政区划名称（感谢[Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)）
@@ -39,30 +13,35 @@
 * 网络提供的第三方输入法词库
 * ……
 
-已对以上所有数据进行去重、精简处理，最终词汇量为 854,215 (Releases/2020-11-03)。
-  
-因为暂不清楚 Gboard 自带的词汇范围，双方肯定存在大量重叠，如果后期找到相关数据，会进行进一步精简处理。
+已对以上所有数据进行去重、精简处理，最终词汇量为 `747,892` (Releases/2021-01-26)。
 
+---
 
-### 我要如何导入这个数据库
+# 使用方法
 
-您所需要做的，就是把这个数据库复制到 `/data/data/com.google.android.inputmethod.latin/databases` 中替换原有文件。
-  
-这个过程中很可能需要root权限。
-  
-如果您有使用 [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)，可以使用我提供的这个 [tasker](https://raw.githubusercontent.com/wuhgit/CustomPinyinDictionary/main/tasker/Tasker_Gboard%E5%AF%BC%E5%85%A5%E8%AF%8D%E5%BA%93.tsk.xml) 配置文件，把它导入到 Tasker 中，再将下载解压后的 `PersonalDictionary.db` 置入您手机存储器的 `Download` 目录中，执行即可。
+---
 
+## Fcitx5
 
-您可能需要：
+下载 `PersonalDictionary_fcitx.dict`，将其复制粘贴到目录 `~/.local/share/fcitx5/pinyin/dictionaries/` 中（如果没有这个目录，您可以自行创建），重启 `Fcitx` 后即可生效。
 
+---
 
+## Gboard
+
+⚠️警告！
+
+**因为词库词条数量过多，目前不能在 Gboard 中直接导入，使用此词库需要 root 权限对原有词库数据库进行替换，这将会覆盖您输入法中已有的所有个人词库数据，请在操作前做好相关备份！**
+
+您需要执行以下操作：
+
+- 下载 `PersonalDictionary.db`
 - 切换到其它输入法 或者 在 Android 的 管理屏幕键盘 中关闭 Gboard
 - 在应用设置中清除 Gboard 的缓存
-- 覆盖更新到此数据库
+- 将 `PersonalDictionary.db` 复制到 `/data/data/com.google.android.inputmethod.latin/databases` 中替换原有文件
 - 切换回 Gboard 或者 在 Android 的 管理屏幕键盘 中打开 Gboard
 
-
-### 有其它需要注意的问题吗
+您可能需要注意：
 
 由于是采用数据库替换的方式，您现有的个人词库将会被覆盖，请自行备份相关数据，主要是 `/data/data/com.google.android.inputmethod.latin/databases/PersonalDictionary.db` 。
   
@@ -74,13 +53,7 @@
 
 为获得更好的使用体验，建议对 Gboard 中以下设置进行修改：
 
-
-Gboard 设置 > 高级 > 学习
+`Gboard 设置 > 高级 > 学习`
 
 - 关闭 **个性化设置**
 - 关闭 **改进语音和输入功能，让所有用户受益**
-
-
-### 后期会提供其它输入法的词库吗？
-
-待定，不过您可以直接从现在的数据库文件中导出词汇，再使用 [深蓝词库转换](https://github.com/studyzy/imewlconverter) 转换为您所需要的格式。
