@@ -13,7 +13,7 @@
 * 网络提供的第三方输入法词库
 * ……
 
-已对以上所有数据进行去重、精简处理，最终词汇量为 `743,801` (Releases/2021-04-26)。
+已对以上所有数据进行去重、精简处理，最终词汇量为 `1,057,357` (Releases/2021-06-27)。
 
 ---
 
@@ -38,14 +38,14 @@
 - 下载 `PersonalDictionary.db`
 - 切换到其它输入法 或者 在 Android 的 管理屏幕键盘 中关闭 Gboard
 - 在应用设置中清除 Gboard 的缓存
-- 将 `PersonalDictionary.db` 复制到 `/data/data/com.google.android.inputmethod.latin/databases` 中替换原有文件
+- 将 `PersonalDictionary.db` 复制到 `/data/data/com.google.android.inputmethod.latin/databases` 中替换原有文件 (请自行备份原始文件)
 - 切换回 Gboard 或者 在 Android 的 管理屏幕键盘 中打开 Gboard
 
 您可能需要注意：
 
-由于是采用数据库替换的方式，您现有的个人词库将会被覆盖，请自行备份相关数据，主要是 `/data/data/com.google.android.inputmethod.latin/databases/PersonalDictionary.db` 。
+由于是采用数据库替换的方式，您现有的个人词库将会被覆盖，请自行备份相关数据 。
   
-在导入之前，请确保 Gboard 不是您手机上唯一的输入法，以免发送其它意外。
+在导入之前，请确保 Gboard 不是您手机上唯一的输入法，以免发生其它意外。
   
 词库导入后，可能需要一点时间后才能在输入时感知到新词，期间 Gboard 可能会在通知栏以 **正在改善您的打字输入体验** 进行提示。
   
