@@ -13,7 +13,7 @@
 * 网络提供的第三方输入法词库
 * ……
 
-已对以上所有数据进行去重、精简处理，最终词汇量为 `1,059,841` (Releases/2021-12-30)。
+已对以上所有数据进行去重、精简处理，最终词汇量等信息详见 [Releases](https://github.com/wuhgit/CustomPinyinDictionary/releases)。
 
 ---
 
