@@ -18,7 +18,7 @@
 
 # Fcitx 5
 
-下载 `PersonalDictionary_fcitx.dict`，将其复制粘贴到目录 `~/.local/share/fcitx5/pinyin/dictionaries/` 中（如果没有这个目录，您可以自行创建），重启 <u>Fcitx</u> 后即可生效。
+下载 `CustomPinyinDictionary_Fcitx.dict`，将其复制粘贴到目录 `~/.local/share/fcitx5/pinyin/dictionaries/` 中（如果没有这个目录，您可以自行创建），重启 <u>Fcitx</u> 后即可生效。
 
 ---
 
