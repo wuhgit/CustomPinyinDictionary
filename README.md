@@ -1,7 +1,6 @@
 # 自建拼音输入法词库
 
-
-> 目前提供 <u>Fcitx 5</u> (Linux) 以及 <u>Gboard</u> (Android + Magisk) 两种词库数据格式。
+> 目前提供 <u>Fcitx 5</u> (Linux / Android) 以及 <u>Gboard</u> (Android + Magisk) 两种词库数据格式。
 
 当前词库，包含了以下内容：
 
@@ -16,11 +15,33 @@
 已对以上所有数据进行去重、精简处理，最终词汇量等信息详见 [Releases](https://github.com/wuhgit/CustomPinyinDictionary/releases)。
 
 
+---
+
+<div>
+	<img src="https://fcitx-im.org/fcitx.png" alt="Fcitx5 logo" width="100">
+</div>
+
 # Fcitx 5
 
-下载 `CustomPinyinDictionary_Fcitx.dict`，将其复制粘贴到目录 `~/.local/share/fcitx5/pinyin/dictionaries/` 中（如果没有这个目录，您可以自行创建），重启 <u>Fcitx</u> 后即可生效。
+下载 `CustomPinyinDictionary_Fcitx.dict`
+
+## Linux
+
+将下载的词库复制粘贴到目录 `~/.local/share/fcitx5/pinyin/dictionaries/` 中（如果没有这个目录，您可以自行创建），重启 <u>Fcitx</u> 后即可生效。
+
+## Android
+
+> https://github.com/fcitx5-android/fcitx5-android
+
+在“小企鹅输入法5”的 输入法键盘上选择 `输入法设置 > 词典`，添加刚刚下载的词库即可。
+
 
 ---
+
+
+<div>
+	<img src="https://play-lh.googleusercontent.com/X64En0aW6jkvDnd5kr16u-YuUsoJ1W2cBzJab3CQ5lObLeQ3T61DpB7AwIoZ7uqgCn4=s180" alt="Gboard logo" width="100">
+</div>
 
 # Gboard (Magisk module)
 
