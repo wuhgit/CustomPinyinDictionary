@@ -25,15 +25,15 @@
 
 下载 `CustomPinyinDictionary_Fcitx.dict`
 
-## Linux
+- Linux
 
-将下载的词库复制粘贴到目录 `~/.local/share/fcitx5/pinyin/dictionaries/` 中（如果没有这个目录，您可以自行创建），重启 <u>Fcitx</u> 后即可生效。
+	将下载的词库复制粘贴到目录 `~/.local/share/fcitx5/pinyin/dictionaries/` 中（如果没有这个目录，您可以自行创建），重启 <u>Fcitx</u> 后即可生效。
 
-## Android
+- Android
 
-> https://github.com/fcitx5-android/fcitx5-android
+	> https://github.com/fcitx5-android/fcitx5-android
 
-在“小企鹅输入法5”的 输入法键盘上选择 `输入法设置 > 词典`，添加刚刚下载的词库即可。
+	在“小企鹅输入法5”的 输入法键盘上选择 `输入法设置 > 词典`，添加刚刚下载的词库即可。
 
 
 ---
