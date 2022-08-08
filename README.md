@@ -23,15 +23,15 @@
 
 # Fcitx 5
 
-下载 `CustomPinyinDictionary_Fcitx.dict`
+下载 `CustomPinyinDictionary_Fcitx_<版本号>.zip` 并解压，得到词库文件 `CustomPinyinDictionary_Fcitx.dict`
 
 - Linux
 
-	将下载的词库复制粘贴到目录 `~/.local/share/fcitx5/pinyin/dictionaries/` 中（如果没有这个目录，您可以自行创建），重启 <u>Fcitx</u> 后即可生效。
+	将词库文件复制粘贴到目录 `~/.local/share/fcitx5/pinyin/dictionaries/` 中（如果没有这个目录，您可以自行创建），重启 <u>Fcitx</u> 后即可生效。
 
 - Android
 
-	拼音输入模式下，在输入法键盘上选择 `输入法设置 > 词典`，添加刚刚下载的词库即可。
+	拼音输入模式下，在输入法键盘上选择 `输入法设置 > 词典`，添加词库文件即可。
 
 
 ---
@@ -51,16 +51,21 @@
 
 ## **使用方法**
 
-1. 下载 `CustomPinyinDictionary_Gboard_Magisk.zip` 
-2. 使用 Magisk 应用 `从本地安装`，选择之前下载的文件
+- 首次安装
+   1. 下载 `CustomPinyinDictionary_Gboard_Magisk_<版本号>.zip`。
+   2. 使用 Magisk 应用 `从本地安装`，选择之前下载的文件。
+   3. 使用音量键选择`安装`。
 
-- 安装
-	- 使用音量键选择`安装`
+- 升级
+   - 直接通过 Magisk 应用进行检查更新并安装。
+
 - 卸载
-	- 使用音量键选择`卸载`
-	- 在 Magisk 模块管理页面进行 `移除`
-	
-	> 若忘记执行卸载直接移除，可以再重新执行一遍安装流程，过程中选择卸载，随后移除模块即可。
+   1. 参考`首次安装`的 1～2 。
+   2. 使用音量键选择`卸载`。
+   3. 在 Magisk 模块管理页面对本模块进行 `移除`。
+
+
+   > 若忘记执行卸载直接移除，可以再重新执行一遍卸载流程，过程中选择卸载，随后移除模块即可。
 
 
 ## **注意**
