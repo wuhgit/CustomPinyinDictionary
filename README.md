@@ -23,11 +23,16 @@
 
 # Fcitx 5
 
-下载 `CustomPinyinDictionary_Fcitx_<版本号>.zip` 并解压，得到词库文件 `CustomPinyinDictionary_Fcitx.dict`
+下载 `CustomPinyinDictionary_Fcitx_<版本号>.tar.gz` 并解压，得到词库文件 `CustomPinyinDictionary_Fcitx.dict`
 
 - Linux
 
-	将词库文件复制粘贴到目录 `~/.local/share/fcitx5/pinyin/dictionaries/` 中（如果没有这个目录，您可以自行创建），重启 <u>Fcitx</u> 后即可生效。
+   > **ArchLinux** 可以通过 **AUR** 进行安装，便于后期升级更新。
+   > 
+   > https://aur.archlinux.org/packages/fcitx5-pinyin-custom-pinyin-dictionary
+
+	将词库文件复制粘贴到目录 `/usr/share/fcitx5/pinyin/dictionaries/` 中（如果没有这个目录，您可以自行创建），重启 <u>Fcitx</u> 后即可生效。
+
 
 - Android
 
