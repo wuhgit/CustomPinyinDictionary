@@ -1,17 +1,32 @@
 ![](https://raw.githubusercontent.com/wuhgit/CustomPinyinDictionary/main/documents/title.png)
 
+![](https://img.shields.io/badge/dynamic/json?style=social&label=%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F&query=updateDate&url=https%3A%2F%2Fgithub.com%2Fwuhgit%2FCustomPinyinDictionary%2Fraw%2Fmain%2Fmagisk%2Fstatus.json)
 
-当前词库，包含了以下内容：
+![](https://img.shields.io/badge/dynamic/json?style=social&label=%E8%AF%8D%E6%9D%A1%E6%80%BB%E8%AE%A1&query=totalWords&url=https%3A%2F%2Fgithub.com%2Fwuhgit%2FCustomPinyinDictionary%2Fraw%2Fmain%2Fmagisk%2Fstatus.json)
 
-   * 常见的成语、俗语、诗歌等
-   * 中华人民共和国四级行政区划名称（感谢[Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)）
-   * 世界各个国家国名全称、简称（感谢[wgii](https://github.com/occultskyrong/wgii))
-   * 世界各国和地区名称及一级行政区划（数据来源：中华人民共和国海关总署)
-   * 常见人名
-   * 网络提供的第三方输入法词库
-   * ……
+---
 
-已对以上所有数据进行去重、精简处理，最终词汇量等信息详见 [![Releases](https://img.shields.io/github/last-commit/wuhgit/CustomPinyinDictionary?label=Releases&style=for-the-badge)](https://github.com/wuhgit/CustomPinyinDictionary/releases) 。
+针对日常输入习惯，当前词库包含了以下内容：
+
+* 人文类
+	* 成语
+	* 俗语
+	* 诗歌
+	* ……
+* 地理类
+	* 中华人民共和国四级行政区划名称（感谢[Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)）
+	* 世界各个国家国名全称、简称（感谢[wgii](https://github.com/occultskyrong/wgii))
+	* 世界各国和地区名称及一级行政区划（数据来源：中华人民共和国海关总署)
+	* ……
+* 生活类
+	* 国家统计局统计用产品分类目录
+	* 商品目录
+	* 常见人名
+	* 第三方输入法词库
+	* ……
+
+
+> 已对以上所有数据进行去重、精简处理。
 
 
 ---
