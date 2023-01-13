@@ -12,15 +12,16 @@
 	* 成语
 	* 俗语
 	* 诗歌
+	* 汉语词典 (感谢[FREEMDICT](https://forum.freemdict.com))
 	* ……
 * 地理类
 	* 中华人民共和国四级行政区划名称（感谢[Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)）
 	* 世界各个国家国名全称、简称（感谢[wgii](https://github.com/occultskyrong/wgii))
-	* 世界各国和地区名称及一级行政区划（数据来源：中华人民共和国海关总署)
+	* 世界各国和地区名称及一级行政区划（数据来源：[中华人民共和国海关总署](http://online.customs.gov.cn/))
 	* ……
 * 生活类
-	* 国家统计局统计用产品分类目录
-	* 商品目录
+	* 统计用产品分类目录（数据来源：[国家统计局](http://www.stats.gov.cn/))
+	* 商品目录 (数据来源：京东、淘宝 等购物网站)
 	* 常见人名
 	* 第三方输入法词库
 	* ……
