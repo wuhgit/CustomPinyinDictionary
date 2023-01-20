@@ -2,6 +2,8 @@
 
 ![](https://img.shields.io/badge/dynamic/json?style=social&label=%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F&query=updateDate&url=https%3A%2F%2Fgithub.com%2Fwuhgit%2FCustomPinyinDictionary%2Fraw%2Fmain%2Fmagisk%2Fstatus.json)
 
+![](https://img.shields.io/badge/dynamic/json?style=social&label=%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0%E8%AE%A1%E6%95%B0&query=versionNumber&url=https%3A%2F%2Fgithub.com%2Fwuhgit%2FCustomPinyinDictionary%2Fraw%2Fmain%2Fmagisk%2Fstatus.json)
+
 ![](https://img.shields.io/badge/dynamic/json?style=social&label=%E8%AF%8D%E6%9D%A1%E6%80%BB%E8%AE%A1&query=totalWords&url=https%3A%2F%2Fgithub.com%2Fwuhgit%2FCustomPinyinDictionary%2Fraw%2Fmain%2Fmagisk%2Fstatus.json)
 
 ---
@@ -12,18 +14,20 @@
 	* 成语
 	* 俗语
 	* 诗歌
-	* 汉语词典 (感谢[FREEMDICT](https://forum.freemdict.com))
+	* 汉语相关词典（感谢[FREEMDICT](https://forum.freemdict.com)）
 	* ……
 * 地理类
-	* 中华人民共和国四级行政区划名称（感谢[Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)）
-	* 世界各个国家国名全称、简称（感谢[wgii](https://github.com/occultskyrong/wgii))
-	* 世界各国和地区名称及一级行政区划（数据来源：[中华人民共和国海关总署](http://online.customs.gov.cn/))
+	* 中华人民共和国行政区划，收录`省份、城市、区县、乡镇`四级数据（感谢[Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)）
+	* 世界主要国家或地区，收录`国名全称、简称、首都`（感谢[wgii](https://github.com/occultskyrong/wgii)）
+	* 世界各国和地区名称及一级行政区划（数据来源：[中华人民共和国海关总署](http://online.customs.gov.cn/)）
 	* ……
 * 生活类
-	* 统计用产品分类目录（数据来源：[国家统计局](http://www.stats.gov.cn/))
-	* 商品目录 (数据来源：京东、淘宝 等购物网站)
+	* 统计用产品分类目录（数据来源：[国家统计局](http://www.stats.gov.cn/)）
+	* 商品目录（数据来源：京东、淘宝 等购物网站）
 	* 常见人名
-	* 第三方输入法词库
+	* ……
+* 其它
+    * 第三方输入法词库
 	* ……
 
 
@@ -45,7 +49,7 @@
 	3. 重启 <u>Fcitx</u> 后即可生效。
 
 - 通过用户软件仓库安装
-	- [![AUR](https://img.shields.io/aur/version/fcitx5-pinyin-custom-pinyin-dictionary?style=for-the-badge)](https://aur.archlinux.org/packages/fcitx5-pinyin-custom-pinyin-dictionary)
+	- [![AUR](https://img.shields.io/aur/version/fcitx5-pinyin-custom-pinyin-dictionary?style=for-the-badge&logo=archlinux)](https://aur.archlinux.org/packages/fcitx5-pinyin-custom-pinyin-dictionary)
 
 
 # Fcitx 5 Android
@@ -100,6 +104,9 @@
     > ![注意](https://img.shields.io/badge/-%E6%B3%A8%E6%84%8F-red?style=for-the-badge)
     > - 若未按流程进行卸载而直接对模块执行移除，会导致词库数据仍然存在，此时可以再按照上面的`卸载`流程重新执行一遍，随后移除模块即可。
     > - “多用户”[^multi-user] 需要在确保其它已安装此模块的用户均已卸载的情况下才能进行移除。
+
+
+---
 
 
 [^multi-user]:  这里的“多用户”指 [Android 系统自带的“多用户”功能](https://source.android.com/docs/devices/admin/multi-user)。<br/>
