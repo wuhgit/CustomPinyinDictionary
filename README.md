@@ -114,4 +114,4 @@
   如果某一用户需要使用本模块提供的词库数据，请使用该用户安装模块。<br/>
   在某一用户下进行的安装或升级操作，其它已安装本模块的用户数据会同步更新。<br/>
   如果某一用户不想再使用，单独以该用户执行卸载（只需执行 `卸载` 中的 1～2 即可），若其它用户也安装有此模块，请确保其它用户均完成卸载后再执行`移除`。<br/>
-  使用 `Island`、`Shelter` 等应用创建的“多用户”需要进行一些[手动操作](https://github.com/wuhgit/CustomPinyinDictionary/issues/15#issuecomment-1272198671)。
+  使用 `Island`、`Shelter` 等应用创建的“多用户”需要进行一些[手动操作](https://github.com/wuhgit/CustomPinyinDictionary/issues/20)。
