@@ -72,8 +72,12 @@
 
 # Gboard (Magisk 模块)
 
-> ![提示](https://img.shields.io/badge/-%E6%8F%90%E7%A4%BA-orange?style=for-the-badge)
-> - 本词库仅对 ___中文（简体） 拼音___ 的键盘语言和布局生效。
+![提示](https://img.shields.io/badge/-%E6%8F%90%E7%A4%BA-orange?style=for-the-badge)
+
+> - 本词库仅对 ___中文（简体） 拼音___ 的键盘语言和布局生效。This thesaurus is only valid for ___Chinese (Simplified) Pinyin___ keyboard language and layout.
+
+> - 当前词库在使用上会有一些限制和问题，详情请查看 [相关issue](https://github.com/wuhgit/CustomPinyinDictionary/issues/21)。
+
 > - 如果是旧版数据用户 (即 2022-04-22 前通过直接替换文件方式进行安装的用户) ，先恢复词库至您之前备份的数据，若没有相应备份，当迁移至 Magisk 模式时，请先在模块安装时选择卸载，此时模块会将原有词库替换为空白数据，随后再进行安装。
 > - 词库导入后，可能需要一段时间后才能在输入时感知到新词。您可以在 `Gboard 设置` > `字典` > `个人字典` > `中文（简体）` 查看到本词库导入后的数据。
 
