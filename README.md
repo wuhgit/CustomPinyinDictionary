@@ -1,10 +1,10 @@
 ![](https://raw.githubusercontent.com/wuhgit/CustomPinyinDictionary/main/documents/title.png)
 
-![](https://img.shields.io/badge/dynamic/json?style=social&label=%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F&query=updateDate&url=https%3A%2F%2Fgithub.com%2Fwuhgit%2FCustomPinyinDictionary%2Fraw%2Fmain%2Fmagisk%2Fstatus.json)
+![](https://img.shields.io/badge/dynamic/json?style=social&label=%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F&query=updateDate&url=https%3A%2F%2Fgithub.com%2Fwuhgit%2FCustomPinyinDictionary%2Fraw%2Fmain%2Fstatus.json)
 
-![](https://img.shields.io/badge/dynamic/json?style=social&label=%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0%E8%AE%A1%E6%95%B0&query=versionNumber&url=https%3A%2F%2Fgithub.com%2Fwuhgit%2FCustomPinyinDictionary%2Fraw%2Fmain%2Fmagisk%2Fstatus.json)
+![](https://img.shields.io/badge/dynamic/json?style=social&label=%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0%E8%AE%A1%E6%95%B0&query=versionNumber&url=https%3A%2F%2Fgithub.com%2Fwuhgit%2FCustomPinyinDictionary%2Fraw%2Fmain%2Fstatus.json)
 
-![](https://img.shields.io/badge/dynamic/json?style=social&label=%E8%AF%8D%E6%9D%A1%E6%80%BB%E8%AE%A1&query=totalWords&url=https%3A%2F%2Fgithub.com%2Fwuhgit%2FCustomPinyinDictionary%2Fraw%2Fmain%2Fmagisk%2Fstatus.json)
+![](https://img.shields.io/badge/dynamic/json?style=social&label=%E8%AF%8D%E6%9D%A1%E6%80%BB%E8%AE%A1&query=totalWords&url=https%3A%2F%2Fgithub.com%2Fwuhgit%2FCustomPinyinDictionary%2Fraw%2Fmain%2Fstatus.json)
 
 ---
 
@@ -57,9 +57,10 @@
 
 - 手动安装
 	1. 下载 `CustomPinyinDictionary_Fcitx_<版本号>.tar.gz` 并解压，得到词库文件 `CustomPinyinDictionary_Fcitx.dict` 。
-	2. 拼音输入模式下，在输入法键盘上选择 `输入法设置` > `词典`，添加词库文件即可。
+	2. 拼音输入模式下，在输入法键盘上选择 `输入法设置` > `管理词库` ，添加词库文件即可。
 
 - 通过 Magisk 模块安装
+    > 首次安装如果报错 `词库文件夹不存在` ，请在拼音输入模式下前往 `输入法设置` > `管理词库`，以让应用生成相关目录。
 	1. 下载模块文件 `CustomPinyinDictionary_Fcitx_Magisk_<版本号>.zip` 。
 	2. 使用 Magisk 应用进行安装更新。详见 [Magisk 模块的使用](#magisk-模块的使用)
 
