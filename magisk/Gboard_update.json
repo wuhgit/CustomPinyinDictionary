@@ -1,6 +1,6 @@
 {
-    "versionCode": 20240824,
-    "version": "v20240824",
-    "zipUrl": "https://github.com/wuhgit/CustomPinyinDictionary/releases/download/assets/CustomPinyinDictionary_Gboard_Magisk_20240824.zip",
+    "versionCode": 20250101,
+    "version": "v20250101",
+    "zipUrl": "https://github.com/wuhgit/CustomPinyinDictionary/releases/download/assets/CustomPinyinDictionary_Gboard_Magisk_20250101.zip",
     "changelog": "https://github.com/wuhgit/CustomPinyinDictionary/raw/main/magisk/changelog.md"
 }
