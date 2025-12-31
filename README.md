@@ -42,25 +42,30 @@
 
 # Fcitx 5 Linux
 
-
 - 手动安装
-	1. 下载 `CustomPinyinDictionary_Fcitx_<版本号>.tar.gz` 并解压，得到词库文件 `CustomPinyinDictionary_Fcitx.dict` 。
-	2. 将词库文件复制到目录 `/usr/share/fcitx5/pinyin/dictionaries/` 中（如果没有这个目录，您可以自行创建）。
-	3. 重启 <u>Fcitx</u> 后即可生效。
+	1. 下载词库文件 `CustomPinyinDictionary_Fcitx.dict`。
+    2. > - 当前用户 `~/.local/share/fcitx5/pinyin/dictionaries/`
+       > - 全局（可能需要root权限） `/usr/share/fcitx5/pinyin/dictionaries/`
+	   
+	   按照您的喜好选择一个目录，将词库文件复制到该目录，如之前已安装过同名词库，可以直接覆盖。
+	4. 重启 <u>Fcitx</u> 后即可生效。
 
 - 通过用户软件仓库安装
 	- [![AUR](https://img.shields.io/aur/version/fcitx5-pinyin-custom-pinyin-dictionary?style=for-the-badge&logo=archlinux)](https://aur.archlinux.org/packages/fcitx5-pinyin-custom-pinyin-dictionary)
 
 
-# Fcitx 5 Android
+# Fcitx 5 Android 
 
+> Q：如何打开`管理词库`？
+> 
+> A：Fcitx 输入法，切换至拼音输入模式（双拼或全拼皆可），在输入法键盘上选择 `输入法设置` > `管理词库`
 
 - 手动安装
-	1. 下载 `CustomPinyinDictionary_Fcitx_<版本号>.tar.gz` 并解压，得到词库文件 `CustomPinyinDictionary_Fcitx.dict` 。
-	2. 拼音输入模式下，在输入法键盘上选择 `输入法设置` > `管理词库` ，添加词库文件即可。
+	1. 下载词库文件 `CustomPinyinDictionary_Fcitx.dict`。
+	2. 使用`文件`（com.android.documentsui）打开词库文件，由于 Fcitx5 Android 输入法已经在系统中注册了 `.dict` 的打开方式，直接确定导入即可。如果此方式在您手机上无效，则可以打开`管理词库`，添加词库文件完成安装，注意，若之前已安装过本词库，需要先删除旧版本词库。
 
 - 通过模块安装
-    > 首次安装如果报错 `词库文件夹不存在` ，请在拼音输入模式下前往 `输入法设置` > `管理词库`，以让应用生成相关目录。
+    > 首次安装如果报错 `词库文件夹不存在` ，请打开`管理词库`，以让应用生成相关目录。
 	1. 下载模块文件 `CustomPinyinDictionary_Fcitx_Magisk_<版本号>.zip` 。
 	2. 使用 Magisk 或 KernelSU 应用进行安装更新。详见 [模块的使用](#模块的使用)
 
@@ -89,6 +94,18 @@
 <div><img src="https://kernelsu.org/logo.png" alt="kernelsu logo" width="100" align="right"></div>
 
 # 模块的使用
+
+![提示](https://img.shields.io/badge/-%E6%8F%90%E7%A4%BA-orange?style=for-the-badge)
+
+> 由于我现有的几台设备均已无法升级到最新的系统、 Magisk 或 KernelSU，符合个人使用需求且能解锁BL的新机几乎不存在，换机计划一再推迟，我不能保证模块在后续使用中如果出现问题能够如以前一样及时排障，加之考虑到诸位可能面临相似困境，且在这种现状下，模块面临的碎片化问题会更加严重，本着尽责的态度，做出了停止更新模块的决定，v20260101将成为最终的模块版本。
+> 
+> 针对 Fcitx 用户，建议完全迁移到手动安装方式，通过模块安装只是为了方便管理更新，后续应该会有更优雅的解决方式。
+> 
+> 针对 Gboard 用户，若您的设备已经解锁BL并Root，可以考虑通过命令行进行手动安装。
+> 
+> 由衷感谢各位模块用户在过去五年（2020.11-2026.01）的使用和支持！！！
+
+---
 
 > 安装、升级、卸载此模块均 **不需要重启** ，即时生效。
 
